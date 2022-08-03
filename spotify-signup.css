@@ -1,4 +1,77 @@
 .spotify-logo {
     width: 120px;
-    height: 60px;
+    height: auto;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+.body-cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 450px;
+
+}
+.Facebook {
+    background-color: #405a93;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-bottom: 22px;
+    padding: 10px;
+}
+.Google {
+    color: #535353;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    font-weight: 700;
+    margin-bottom: 22px;
+    padding: 10px;
+}
+.hr-or > hr {
+    height:1px;
+    width:180px;
+    border-width:0;
+    color:gray;
+    background-color:gray
+}
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.form-label {
+    font-weight: 700;
+    margin: 0px;
+}
+.form-control {
+    padding: 14px;
+}
+.phoneNumber {
+    color: #117a37;
+}
+.policy {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.policy > a {
+    color: #1DB954;
+}
+.terms {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.terms > a {
+    color: #1DB954;
+}
+.login {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.login > a {
+    color: #1DB954;
 }
