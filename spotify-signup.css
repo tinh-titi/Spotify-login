@@ -86,3 +86,19 @@ footer > button {
     border-style: hidden;
     margin: 12px 0px 24px;
 }
+input {
+    border: 1px solid #ced4da;
+    height: 50px;
+    border-radius: 5px;
+
+}
+.selectMonth {
+    height: 50px;
+    width: 200px;
+}
+.day {
+    width: 100px;
+}
+.year {
+    width: 100px;
+}
