@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,36 @@
     <title>Login</title>
     <link rel="stylesheet" href="login.css">
 </head>
+
 <body>
     <div>
-        <header class="d-flex flex-column align-items-center>
+        <header class="d-flex flex-column align-items-center">
             <img class="spotify-logo" src="Spotify-Logo-Black.png" alt="Spotify">
+            <p class="loginContinue">
+                To continue, log in to Spotify.
+            </p>
+            <div><button class="facebook rounded-pill">CONTINUE WITH FACEBOOK</button></div>
+            <div><button class="apple rounded-pill">CONTINUE WITH APPLE</button></div>
+            <div><button class="google rounded-pill">CONTINUE WITH GOOGLE</button></div>
+            <button class="phoneNumber rounded-pill">CONTINUE WITH PHONE NUMBER</button>
+            <div class="d-flex align-items-center pb-3 hr-or">
+                <hr>
+                <div class="mx-3">or</div>
+                <hr>
+            </div>
         </header>
-        <main></main>
+        <main>
+            <div class="col-md-6 w-100 pb-4">
+                <label for="inputEmail4" class="form-label pb-2">Email address or username</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email address or username">
+            </div>
+            <div class="col-md-6 w-100 pb-4">
+                <label for="inputPassword4" class="form-label pb-2">Create a password</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Creat a password">
+            </div>
+        </main>
         <footer></footer>
     </div>
 </body>
+
 </html>
