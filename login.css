@@ -2,3 +2,13 @@
     width: 120px;
     height: auto;
 }
+body {
+    display: flex;
+    justify-content: center;
+}
+.bodyCover {
+    max-width: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
